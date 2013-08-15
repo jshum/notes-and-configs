@@ -1,0 +1,7 @@
+1) copy pig.vim file into your ~/.vim/syntax/ directory;
+
+2) add the following three lines to your ~/.vimrc file:
+
+augroup filetypedetect
+  au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
+  augroup END 
